@@ -38,9 +38,24 @@ The second objective was to create a Mentorship-Eligibility table that holds the
 
 How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-After research was done, 72,458 are about to retire.  The table shared above show all the titles/fields that will need to filled once these people finally retire.
+After research was done, 72,458 employees will be retiring soon.  The table shared above shows all the titles/fields that will need to filled once these 
+people finally retire.
 
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-Yes, there are enough retirment-ready employees in the departments to mentor the next generation.
+In order to get this answer two more tables were created.  In the first table, Mentor by Departnent, we collected information from the 
+Mentorship Eligibility, Departments, and Department Employee tables. This data let us know the department names that our qualified, retirement-ready
+employees worked in.  Then, from that table we created the Mentor by Department table.  This table gave us a count of the number of qualified, 
+retirement-ready employees that worked in each department.
+
+So, to answer the question, yes, there are enough qualified, retirement-ready employees in each department to mentor the next generation of Pewlett
+Hackward empoloyees.
+
+Please find below a the Mentor by Department Count table to support this answer:
+
+![mentor_dept_count](https://user-images.githubusercontent.com/114943747/221390421-ed92f65e-e80c-4c99-b4ab-cced3032e6ee.png)
+
+
+
+
 
